@@ -1,0 +1,12 @@
+{
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "autopep8",
+  /** Enable format on save */
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    /** Pyformat use it's own code action to  */
+    "source.organizeImports": true
+  },
+  "editor.tabSize": 4
+}
